@@ -1,14 +1,14 @@
 {
   "builds": [
     {
-      "src": "end.py",
+      "src": "danger.py",
       "use": "@vercel/python"
     }
   ],
   "routes": [
     {
       "src": "/(.*)",
-      "dest": "end.py"
+      "dest": "danger.py"
     }
   ]
 }
